@@ -12,9 +12,8 @@ for food in Foods:
         # Is this elf carrying more than the maximum that has been carried?
         if maxCalories < currentCalories:
             maxCalories = currentCalories
-            # Reset current calories to nothing
+        # Reset current calories to nothing
         currentCalories = 0
-        print(maxCalories)
     else:
         currentCalories = currentCalories + int(food)
 

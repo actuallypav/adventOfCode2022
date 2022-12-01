@@ -13,7 +13,7 @@ for food in Foods:
         if maxCalories < currentCalories:
             maxCalories = currentCalories
             # Reset current calories to nothing
-            currentCalories = 0
+        currentCalories = 0
         print(maxCalories)
     else:
         currentCalories = currentCalories + int(food)
